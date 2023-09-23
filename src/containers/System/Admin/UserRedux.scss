@@ -1,0 +1,108 @@
+.user-redux-container {
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #0071ba;
+  }
+
+  .container {
+    width: 100%;
+
+    .container-up {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 200px;
+      .row-left {
+        width: 75%;
+      }
+      .row-right {
+        width: 25%;
+
+        .preview-img-container {
+          .label-upload {
+            width: 58%;
+            padding: 5px;
+            margin-top: 35px;
+            border-radius: 5px;
+            background: #ddd;
+            cursor: pointer;
+
+            &:hover {
+              opacity: 0.8;
+              background-color: beige;
+            }
+
+            i {
+              padding: 0 5px;
+            }
+          }
+
+          .preview-image {
+            min-height: 230px;
+            width: 98%;
+            border: 1px solid #ddd;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            -ms-zoom-animation: 1;
+
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+      }
+    }
+
+    .container-mid {
+      .btn-control-user {
+        .btn-edit-user {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 14px;
+          min-width: 135px;
+          min-height: 40px;
+          border-radius: 18px;
+          outline: none;
+          border: none;
+          padding: 10px;
+
+          background: #04aa6d;
+          cursor: pointer;
+          color: white;
+
+          &:hover {
+            opacity: 0.9;
+            background-color: forestgreen;
+          }
+        }
+
+        .btn-save-user {
+          text-transform: uppercase;
+          font-weight: 600;
+          font-size: 14px;
+          min-width: 135px;
+          min-height: 40px;
+          border-radius: 18px;
+          outline: none;
+          border: none;
+          padding: 10px;
+          background: darkorange;
+          cursor: pointer;
+
+          &:hover {
+            opacity: 0.9;
+            background-color: orangered;
+          }
+        }
+      }
+    }
+  }
+}

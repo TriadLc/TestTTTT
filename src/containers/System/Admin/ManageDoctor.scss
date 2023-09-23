@@ -1,0 +1,84 @@
+.manage-doctor-container {
+  padding: 5px;
+
+  .manage-doctor-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #0071ba;
+  }
+
+  .more-infor {
+    display: flex;
+    gap: 15px;
+    padding: 10px 70px;
+    width: 100%;
+
+    //border: 1px solid red;
+    min-height: 150px;
+
+    .more-infor-content-left {
+      width: 50%;
+    }
+
+    .more-infor-content-right {
+      width: 50%;
+    }
+  }
+  .more-infor-extra {
+    //border: 1px solid blue;
+    padding: 10px 70px;
+  }
+  .manage-doctor-editor {
+    padding: 10px 70px;
+    min-height: 450px;
+  }
+
+  .btn-control-doctor {
+    margin: 40px 30px;
+
+    .save-content-doctor {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      min-width: 135px;
+      min-height: 40px;
+      border-radius: 18px;
+      outline: none;
+      border: none;
+      padding: 10px;
+
+      background: orange;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.9;
+        background-color: orangered;
+      }
+    }
+
+    .create-content-doctor {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      min-width: 135px;
+      min-height: 40px;
+      border-radius: 18px;
+      outline: none;
+      border: none;
+      padding: 10px;
+
+      background: #04aa6d;
+      cursor: pointer;
+      color: white;
+
+      &:hover {
+        opacity: 0.9;
+        background-color: forestgreen;
+      }
+    }
+  }
+}
